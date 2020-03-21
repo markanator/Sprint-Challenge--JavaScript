@@ -29,14 +29,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+    ForEach runs your code within the given array, .map creates a new array with modified indexes
 
 2. What is the difference between a function and a method?
+    Methods are called by object variables (ie: array.map) and are defined inside of a class; while functions are defined outside a class (ie: saveGame(x,y)).
 
 3. What is closure?
+    closure gives you access to an outer variable or function, from an inner function scope
 
 4. Describe the four rules of the 'this' keyword.
+  1. Window/ Global this refers to JS
+  2. Implicit refers to the obj that is left of the dot:: obj.func();
+  3. New Binding, refers to the new instances of a Classes:: const aa =  new Monster('bb','cc');
+  4. Explicit Binding, refers to the obj that is being passed through instead of the obj before the dot
+
 
 5. Why do we need super() in an extended class?
+    super refers to the parent class, and its used to call the constructor of the parent class and access properties and methods
 
 ## Project Set up
 
@@ -78,7 +87,7 @@ Create constructors, bind methods, and create cuboids in this prototypes challen
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
